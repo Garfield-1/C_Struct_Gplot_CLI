@@ -1,71 +1,73 @@
 # C Struct Gplot CLI
 
-`C`语言项目静态代码分析工具,可生成`svg`格式的`struct\union\enum`结构关系图
+English | [简体中文](./README_zh.md)
 
-![struct mesh_leaf](./docs/README_img/struct mesh_leaf.png)
+A static code analysis tool for `C` language projects that generates `struct\union\enum` structure relationship diagrams in `svg` format
 
-支持简体中文和英文,支持读取配置文件,命令行参数,也可以二者混合使用使用命令行参数覆盖配置文件
+![struct mesh_leaf](./docs/README_img/struct%20mesh_leaf.png)
 
-## 通过cli使用
+Supports Simplified Chinese and English, supports reading configuration files, command-line arguments, or a mix of both, using command-line arguments to override the configuration file
+
+## Usage via CLI
 
 ```shell
-# 查看版本
+# Check version
 python3 ./main.py --version
 
-# 第一次需要初始化数据库
+# The database needs to be initialized on first run
 python3 ./main.py --mode=init --input-file=./tests/test.c
-# 生成struct node_a的svg Topology 图
+# Generate the svg Topology diagram of struct node_a
 python3 ./main.py --mode=svg --extract-name="struct mesh_leaf"
 ```
 
-## 通过配置文件使用
+## Usage via Configuration File
 
 ```shell
-# 查看版本
+# Check version
 python3 ./main.py --version
 
-# 第一次需要配置run_mode参数为init
+# For the first run, the run_mode parameter must be set to init
 python3 ./main.py
-# 第二次需要配置run_mode参数为svg
+# For the second run, the run_mode parameter must be set to svg
 python3 ./main.py
 ```
 
-### 配置文件说明
+### Configuration File Description
 
 ```json
 {
-    // 当前程序运行语言:zh_CN和en
+    // Language of the running program: zh_CN and en
     "language": "zh_CN",
 
-	// 程序运行模式:init和svg
-    // 首次运行必须是init
+	// Program run mode: init and svg
+    // Must be init on first run
     "run_mode": "init",
 
-    // init模式参数
+    // init mode parameters
     "init_mode": {
-        // 要解析的项目路径,支持单文件,文件夹,压缩包
+        // Path of the project to parse, supports single file, folder, and archive
         "input_file":"./tests/test.c"
     },
 
-    // svg模式参数
+    // svg mode parameters
     "svg_mode": {
-        // 要生成的结构名称
+        // Name of the structure to generate
         "extract_name": "struct mesh_leaf"
     },
 
-    // 生成数据库路径和名称
+    // Generated database path and name
     "database": {
         "db_path": "./output",
         "db_name": "structures.db"
     },
 
-    // 调试配置
+    // Debug configuration
     "debug_log": {
-        // 调试等级:DEBUG,INFO,WARNING,ERROR,CRITICAL
+        // Debug level: DEBUG,INFO,WARNING,ERROR,CRITICAL
         "level": "INFO",
-        // 是否记录日志文件
+        // Whether to write logs to a file
         "file_log_enable": false,
-        // 日志是否输出终端
+        // Whether to output logs to the terminal
         "console_log_enable": true
     }
 }
