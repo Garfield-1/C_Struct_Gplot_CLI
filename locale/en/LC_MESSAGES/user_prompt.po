@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: data_topology 1.0\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "C结构体拓扑分析工具"
+msgstr "C Struct Topology Analysis Tool"
+
+msgid "程序流程:init 解析输入文件并构建数据库;svg 基于已有数据生成 SVG（可选,未指定时使用配置默认值 run_mode）"
+msgstr "Program flow: init parses input files and builds the database; svg generates an SVG from existing data (optional; falls back to the config default run_mode when unspecified)"
+
+msgid "配置文件路径（可选,未指定时使用默认配置）"
+msgstr "Path to the configuration file (optional; uses the default configuration when unspecified)"
+
+msgid "待分析的输入文件/目录路径 (init_mode.input_file),仅在 init 时生效"
+msgstr "Path to the input file/directory to analyze (init_mode.input_file); only effective in init mode"
+
+msgid "待提取的根结构体名称 (svg_mode.extract_name),仅在 svg 时生效"
+msgstr "Name of the root structure to extract (svg_mode.extract_name); only effective in svg mode"
+
+msgid "数据库输出路径 (database.db_path)"
+msgstr "Database output path (database.db_path)"
+
+msgid "是否启用调试日志 (debug_log.enabled)"
+msgstr "Whether to enable debug logging (debug_log.enabled)"
+
+msgid "调试日志级别 (debug_log.level)"
+msgstr "Debug log level (debug_log.level)"
+
+msgid "日志是否输出到控制台 (debug_log.enable_console)"
+msgstr "Whether to write logs to the console (debug_log.enable_console)"
+
+msgid "显示程序版本号并退出"
+msgstr "Show the program version number and exit"
+
+msgid "界面语言:zh_CN 或 en（可选,覆盖配置项 language）"
+msgstr "Interface language: zh_CN or en (optional; overrides the config option 'language')"
+
+msgid "解压 .7z 需要 py7zr 库,请先安装: pip install py7zr"
+msgstr "Extracting .7z requires the py7zr library. Please install it first: pip install py7zr"
+
+msgid "解压 .rar 需要 rarfile 库,请先安装: pip install rarfile"
+msgstr "Extracting .rar requires the rarfile library. Please install it first: pip install rarfile"
+
+msgid "路径不存在: {}"
+msgstr "Path does not exist: {}"
+
+msgid "无法打开输入文件:{}"
+msgstr "Unable to open input file: {}"
+
+msgid "错误: {}"
+msgstr "Error: {}"
+
+msgid "运行模式: init"
+msgstr "Run mode: init"
+
+msgid "运行模式: svg"
+msgstr "Run mode: svg"
+
+msgid "运行完成"
+msgstr "Run completed"
+
+msgid "预处理完成,结果已保存到 {}"
+msgstr "Preprocessing finished; result saved to {}"
+
+msgid "未找到 {} 定义"
+msgstr "No {} definition found"
+
+msgid "解压完成: {} -> {}"
+msgstr "Extraction finished: {} -> {}"
+
+msgid "检测到压缩包,正在解压: {}"
+msgstr "Archive detected; extracting: {}"
+
+msgid "--- {} ---"
+msgstr "--- {} ---"
+
+msgid "数据类型: {}"
+msgstr "Data type: {}"
+
+msgid "名称: {}"
+msgstr "Name: {}"
+
+msgid "typedef别名: {}"
+msgstr "typedef aliases: {}"
+
+msgid "完整内容:\n{}"
+msgstr "Full content:\n{}"
+
+msgid "哈希值: {}"
+msgstr "Hash: {}"
+
+msgid "源文件: {}"
+msgstr "Source file: {}"
+
+msgid "磁盘模式:已连接磁盘数据库 {}"
+msgstr "Disk mode: connected to disk database {}"
+
+msgid "内存模式:数据库初始化完成（SQLite :memory: 模式）"
+msgstr "Memory mode: database initialized (SQLite :memory: mode)"
+
+msgid "数据库连接已关闭"
+msgstr "Database connection closed"
+
+msgid "磁盘数据库模式:已连接 {}"
+msgstr "Disk database mode: connected to {}"
+
+msgid "内存数据库模式:使用 :memory:（需调用 flush_to_disk 持久化）"
+msgstr "Memory database mode: using :memory: (call flush_to_disk to persist)"
+
+msgid "数据库未初始化,无需写入磁盘"
+msgstr "Database not initialized; nothing to write to disk"
+
+msgid "内存数据库已写入磁盘:{}"
+msgstr "In-memory database written to disk: {}"
+
+msgid "结构 {} 写入 {} 条子结构引用关系"
+msgstr "Structure {} wrote {} child-structure reference relations"
+
+msgid "开始回填 parent_num 与 parent_hash,共 {} 条记录"
+msgstr "Backfilling parent_num and parent_hash, {} records in total"
+
+msgid "id={} 的记录不存在,跳过回填"
+msgstr "Record with id={} does not exist; skipping backfill"
+
+msgid "id={} 的 ui_json 字段为空,跳过 parent_hash 回填"
+msgstr "ui_json field of id={} is empty; skipping parent_hash backfill"
+
+msgid "id={} 的 ui_json 解析失败:{}"
+msgstr "Failed to parse ui_json of id={}: {}"
+
+msgid "成员声明无法提取类型单词:{}"
+msgstr "Unable to extract type word from member declaration: {}"
+
+msgid "成员归类为 unknown 类型:{}"
+msgstr "Member classified as unknown type: {}"
+
+msgid "成员解析结果:format={} data_type_first={} content={}"
+msgstr "Member parse result: format={} data_type_first={} content={}"
+
+msgid "复合类型未在库中匹配到子结构:{} {}"
+msgstr "Composite type has no matching child structure in database: {} {}"
+
+msgid "复合类型声明缺少结构名:{}"
+msgstr "Composite type declaration missing structure name: {}"
+
+msgid "内嵌复合类型未在库中匹配到子结构:{}"
+msgstr "Nested composite type has no matching child structure in database: {}"
+
+msgid "内嵌复合类型缺少 {{}} 主体内容:{}"
+msgstr "Nested composite type missing {{}} body content: {}"
+
+msgid "未知类型按 typedef 名反查无匹配:{}"
+msgstr "Unknown type: reverse lookup by typedef name found no match: {}"
+
+msgid "结构 {} 的 content 字段为空,table_body 将为空"
+msgstr "content field of structure {} is empty; table_body will be empty"
+
+msgid "开始生成 UI JSON 并填充关系表,数据库元素个数:{}"
+msgstr "Generating UI JSON and filling relations table; database element count: {}"
+
+msgid "id={} 的记录不存在,跳过 UI JSON 生成"
+msgstr "Record with id={} does not exist; skipping UI JSON generation"
+
+msgid "UI JSON 生成与关系表填充完成"
+msgstr "UI JSON generation and relations table filling completed"
+
+msgid "未配置待提取的结构体名称 (svg_mode.extract_name)"
+msgstr "Structure name to extract is not configured (svg_mode.extract_name)"
+
+msgid "未在数据库中找到匹配的结构体: {}"
+msgstr "No matching structure found in the database: {}"
+
+msgid "未配置待分析的输入文件 (init_mode.input_file)"
+msgstr "Input file to analyze is not configured (init_mode.input_file)"
+
+msgid "无效的运行模式 (run_mode): {},仅支持 init/svg"
+msgstr "Invalid run mode (run_mode): {}; only init/svg are supported"
+
+msgid "无效的数据库配置 (database): {},必须为对象"
+msgstr "Invalid database configuration (database): {}; it must be an object"
+
+msgid "无效的数据库路径配置 (database.db_path): {}"
+msgstr "Invalid database path configuration (database.db_path): {}"
+
+msgid "无效的数据库文件名配置 (database.db_name): {}"
+msgstr "Invalid database file name configuration (database.db_name): {}"
+
+msgid "数据库文件不存在: {},请先以 init 模式生成数据库"
+msgstr "Database file does not exist: {}; please generate the database in init mode first"
+
+msgid "无效的语言配置 (language): {},仅支持 {},将回退到原文"
+msgstr "Invalid language configuration (language): {}; only {} are supported, falling back to source text"
+
+msgid "无效的日志级别配置 (debug_log.level): {},仅支持 DEBUG/INFO/WARNING/ERROR/CRITICAL,已降级为 ERROR"
+msgstr "Invalid log level configuration (debug_log.level): {}; only DEBUG/INFO/WARNING/ERROR/CRITICAL are supported, degraded to ERROR"
+
+msgid "初始化日志文件失败 (debug_log.log_file_path={}): {}"
+msgstr "Failed to initialize log file (debug_log.log_file_path={}): {}"
+
+msgid "无效的调试日志配置 (debug_log): {},必须为对象,已回退默认配置"
+msgstr "Invalid debug log configuration (debug_log): {}; it must be an object, fell back to the default configuration"

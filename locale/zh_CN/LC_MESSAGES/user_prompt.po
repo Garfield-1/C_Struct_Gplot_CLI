@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: data_topology 1.0\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "C结构体拓扑分析工具"
+msgstr "C结构体拓扑分析工具"
+
+msgid "程序流程:init 解析输入文件并构建数据库;svg 基于已有数据生成 SVG（可选,未指定时使用配置默认值 run_mode）"
+msgstr "程序流程:init 解析输入文件并构建数据库;svg 基于已有数据生成 SVG（可选,未指定时使用配置默认值 run_mode）"
+
+msgid "配置文件路径（可选,未指定时使用默认配置）"
+msgstr "配置文件路径（可选,未指定时使用默认配置）"
+
+msgid "待分析的输入文件/目录路径 (init_mode.input_file),仅在 init 时生效"
+msgstr "待分析的输入文件/目录路径 (init_mode.input_file),仅在 init 时生效"
+
+msgid "待提取的根结构体名称 (svg_mode.extract_name),仅在 svg 时生效"
+msgstr "待提取的根结构体名称 (svg_mode.extract_name),仅在 svg 时生效"
+
+msgid "数据库输出路径 (database.db_path)"
+msgstr "数据库输出路径 (database.db_path)"
+
+msgid "是否启用调试日志 (debug_log.enabled)"
+msgstr "是否启用调试日志 (debug_log.enabled)"
+
+msgid "调试日志级别 (debug_log.level)"
+msgstr "调试日志级别 (debug_log.level)"
+
+msgid "日志是否输出到控制台 (debug_log.enable_console)"
+msgstr "日志是否输出到控制台 (debug_log.enable_console)"
+
+msgid "显示程序版本号并退出"
+msgstr "显示程序版本号并退出"
+
+msgid "界面语言:zh_CN 或 en（可选,覆盖配置项 language）"
+msgstr "界面语言:zh_CN 或 en（可选,覆盖配置项 language）"
+
+msgid "解压 .7z 需要 py7zr 库,请先安装: pip install py7zr"
+msgstr "解压 .7z 需要 py7zr 库,请先安装: pip install py7zr"
+
+msgid "解压 .rar 需要 rarfile 库,请先安装: pip install rarfile"
+msgstr "解压 .rar 需要 rarfile 库,请先安装: pip install rarfile"
+
+msgid "路径不存在: {}"
+msgstr "路径不存在: {}"
+
+msgid "无法打开输入文件:{}"
+msgstr "无法打开输入文件:{}"
+
+msgid "错误: {}"
+msgstr "错误: {}"
+
+msgid "运行模式: init"
+msgstr "运行模式: init"
+
+msgid "运行模式: svg"
+msgstr "运行模式: svg"
+
+msgid "运行完成"
+msgstr "运行完成"
+
+msgid "预处理完成,结果已保存到 {}"
+msgstr "预处理完成,结果已保存到 {}"
+
+msgid "未找到 {} 定义"
+msgstr "未找到 {} 定义"
+
+msgid "解压完成: {} -> {}"
+msgstr "解压完成: {} -> {}"
+
+msgid "检测到压缩包,正在解压: {}"
+msgstr "检测到压缩包,正在解压: {}"
+
+msgid "--- {} ---"
+msgstr "--- {} ---"
+
+msgid "数据类型: {}"
+msgstr "数据类型: {}"
+
+msgid "名称: {}"
+msgstr "名称: {}"
+
+msgid "typedef别名: {}"
+msgstr "typedef别名: {}"
+
+msgid "完整内容:\n{}"
+msgstr "完整内容:\n{}"
+
+msgid "哈希值: {}"
+msgstr "哈希值: {}"
+
+msgid "源文件: {}"
+msgstr "源文件: {}"
+
+msgid "磁盘模式:已连接磁盘数据库 {}"
+msgstr "磁盘模式:已连接磁盘数据库 {}"
+
+msgid "内存模式:数据库初始化完成（SQLite :memory: 模式）"
+msgstr "内存模式:数据库初始化完成（SQLite :memory: 模式）"
+
+msgid "数据库连接已关闭"
+msgstr "数据库连接已关闭"
+
+msgid "磁盘数据库模式:已连接 {}"
+msgstr "磁盘数据库模式:已连接 {}"
+
+msgid "内存数据库模式:使用 :memory:（需调用 flush_to_disk 持久化）"
+msgstr "内存数据库模式:使用 :memory:（需调用 flush_to_disk 持久化）"
+
+msgid "数据库未初始化,无需写入磁盘"
+msgstr "数据库未初始化,无需写入磁盘"
+
+msgid "内存数据库已写入磁盘:{}"
+msgstr "内存数据库已写入磁盘:{}"
+
+msgid "结构 {} 写入 {} 条子结构引用关系"
+msgstr "结构 {} 写入 {} 条子结构引用关系"
+
+msgid "开始回填 parent_num 与 parent_hash,共 {} 条记录"
+msgstr "开始回填 parent_num 与 parent_hash,共 {} 条记录"
+
+msgid "id={} 的记录不存在,跳过回填"
+msgstr "id={} 的记录不存在,跳过回填"
+
+msgid "id={} 的 ui_json 字段为空,跳过 parent_hash 回填"
+msgstr "id={} 的 ui_json 字段为空,跳过 parent_hash 回填"
+
+msgid "id={} 的 ui_json 解析失败:{}"
+msgstr "id={} 的 ui_json 解析失败:{}"
+
+msgid "成员声明无法提取类型单词:{}"
+msgstr "成员声明无法提取类型单词:{}"
+
+msgid "成员归类为 unknown 类型:{}"
+msgstr "成员归类为 unknown 类型:{}"
+
+msgid "成员解析结果:format={} data_type_first={} content={}"
+msgstr "成员解析结果:format={} data_type_first={} content={}"
+
+msgid "复合类型未在库中匹配到子结构:{} {}"
+msgstr "复合类型未在库中匹配到子结构:{} {}"
+
+msgid "复合类型声明缺少结构名:{}"
+msgstr "复合类型声明缺少结构名:{}"
+
+msgid "内嵌复合类型未在库中匹配到子结构:{}"
+msgstr "内嵌复合类型未在库中匹配到子结构:{}"
+
+msgid "内嵌复合类型缺少 {{}} 主体内容:{}"
+msgstr "内嵌复合类型缺少 {{}} 主体内容:{}"
+
+msgid "未知类型按 typedef 名反查无匹配:{}"
+msgstr "未知类型按 typedef 名反查无匹配:{}"
+
+msgid "结构 {} 的 content 字段为空,table_body 将为空"
+msgstr "结构 {} 的 content 字段为空,table_body 将为空"
+
+msgid "开始生成 UI JSON 并填充关系表,数据库元素个数:{}"
+msgstr "开始生成 UI JSON 并填充关系表,数据库元素个数:{}"
+
+msgid "id={} 的记录不存在,跳过 UI JSON 生成"
+msgstr "id={} 的记录不存在,跳过 UI JSON 生成"
+
+msgid "UI JSON 生成与关系表填充完成"
+msgstr "UI JSON 生成与关系表填充完成"
+
+msgid "未配置待提取的结构体名称 (svg_mode.extract_name)"
+msgstr "未配置待提取的结构体名称 (svg_mode.extract_name)"
+
+msgid "未在数据库中找到匹配的结构体: {}"
+msgstr "未在数据库中找到匹配的结构体: {}"
+
+msgid "未配置待分析的输入文件 (init_mode.input_file)"
+msgstr "未配置待分析的输入文件 (init_mode.input_file)"
+
+msgid "无效的运行模式 (run_mode): {},仅支持 init/svg"
+msgstr "无效的运行模式 (run_mode): {},仅支持 init/svg"
+
+msgid "无效的数据库配置 (database): {},必须为对象"
+msgstr "无效的数据库配置 (database): {},必须为对象"
+
+msgid "无效的数据库路径配置 (database.db_path): {}"
+msgstr "无效的数据库路径配置 (database.db_path): {}"
+
+msgid "无效的数据库文件名配置 (database.db_name): {}"
+msgstr "无效的数据库文件名配置 (database.db_name): {}"
+
+msgid "数据库文件不存在: {},请先以 init 模式生成数据库"
+msgstr "数据库文件不存在: {},请先以 init 模式生成数据库"
+
+msgid "无效的语言配置 (language): {},仅支持 {},将回退到原文"
+msgstr "无效的语言配置 (language): {},仅支持 {},将回退到原文"
+
+msgid "无效的日志级别配置 (debug_log.level): {},仅支持 DEBUG/INFO/WARNING/ERROR/CRITICAL,已降级为 ERROR"
+msgstr "无效的日志级别配置 (debug_log.level): {},仅支持 DEBUG/INFO/WARNING/ERROR/CRITICAL,已降级为 ERROR"
+
+msgid "初始化日志文件失败 (debug_log.log_file_path={}): {}"
+msgstr "初始化日志文件失败 (debug_log.log_file_path={}): {}"
+
+msgid "无效的调试日志配置 (debug_log): {},必须为对象,已回退默认配置"
+msgstr "无效的调试日志配置 (debug_log): {},必须为对象,已回退默认配置"

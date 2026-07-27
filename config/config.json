@@ -1,0 +1,24 @@
+{
+    "language": "zh_CN",
+
+    "run_mode": "init",
+
+    "init_mode": {
+        "input_file":"./tests/test.c"
+    },
+
+    "svg_mode": {
+        "extract_name": "struct mesh_leaf"
+    },
+
+    "database": {
+        "db_path": "./output",
+        "db_name": "structures.db"
+    },
+
+    "debug_log": {
+        "level": "INFO",
+        "file_log_enable": false,
+        "console_log_enable": true
+    }
+}
