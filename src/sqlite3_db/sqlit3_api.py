@@ -320,7 +320,7 @@ class MemoryDatabase(BaseDatabase):
                 disk_conn.close()
                 log_info(_("内存数据库已写入磁盘:{}").format(db_path))
 
-def get_db_file_path():
+def _get_db_file_path():
         database = CONFIG.get('database')
         # 配置文件中 database 被写成非对象类型时,CONFIG.get 会原样返回该值
         if not hasattr(database, 'get'):
@@ -340,7 +340,7 @@ def get_db_file_path():
         return os.path.join(db_path, db_name)
 
 def create_disk_db():
-        db_file = get_db_file_path()
+        db_file = _get_db_file_path()
         if not os.path.isfile(db_file):
                 msg = _("数据库文件不存在: {},请先以 init 模式生成数据库").format(db_file)
                 log_error(msg)
@@ -348,4 +348,4 @@ def create_disk_db():
         return DiskDatabase(db_file)
 
 def create_memory_db():
-        return MemoryDatabase(get_db_file_path())
+        return MemoryDatabase(_get_db_file_path())
