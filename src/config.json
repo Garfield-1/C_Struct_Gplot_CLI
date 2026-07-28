@@ -1,23 +1,23 @@
 {
-    "language": "zh_CN",
+    "language": "en",
 
     "run_mode": "init",
 
     "init_mode": {
-        "input_file":"./tests/test.c"
+        "input_file":"/home/pi/code/C_Struct_Gplot_CLI/tests/linux-5.4.tar.gz"
     },
 
     "svg_mode": {
-        "extract_name": "struct mesh_leaf"
+        "extract_name": "struct task_struct"
     },
 
     "database": {
-        "db_path": "./output",
+        "db_path": "./../output",
         "db_name": "structures.db"
     },
 
     "debug_log": {
-        "level": "INFO",
+        "level": "ERROR",
         "file_log_enable": false,
         "console_log_enable": true
     }

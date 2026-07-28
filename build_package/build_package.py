@@ -213,7 +213,7 @@ def write_runtime_hook():
 """拼装 PyInstaller 命令行
 
 - --paths src: 让静态分析能解析 src/ 下的顶层包
-- --add-data: 打入 locale/ 翻译与 config/config.json 默认配置
+- --add-data: 打入 locale/ 翻译与 src/config.json 默认配置
 - --runtime-hook: 注入冻结路径修正逻辑
 --add-data 的源与目标分隔符跨平台使用 os.pathsep(Windows 为 ';',其余为 ':')
 """
@@ -230,12 +230,12 @@ def build_command(args, hook_path):
                 '--specpath', BUILD_DIR,
                 '--runtime-hook', hook_path,
                 '--add-data', '{}{}locale'.format(os.path.join(PROJECT_ROOT, 'locale'), sep),
-                '--add-data', '{}{}config'.format(
-                        os.path.join(PROJECT_ROOT, 'config', 'config.json'), sep),
+                '--add-data', '{}{}.'.format(
+                        os.path.join(PROJECT_ROOT, 'src', 'config.json'), sep),
         ]
         for module in HIDDEN_IMPORTS:
                 cmd += ['--hidden-import', module]
-        cmd.append(os.path.join(PROJECT_ROOT, 'main.py'))
+        cmd.append(os.path.join(PROJECT_ROOT, 'src', 'main.py'))
         return cmd
 
 
@@ -272,7 +272,7 @@ def collect_output(args, platform_tag):
         shutil.move(src, dst)
 
         # 附带外置配置样例,便于使用者按需修改后随程序分发
-        config_src = os.path.join(PROJECT_ROOT, 'config', 'config.json')
+        config_src = os.path.join(PROJECT_ROOT, 'src', 'config.json')
         if os.path.isfile(config_src):
                 shutil.copy(config_src, os.path.join(target_dir, 'config.json'))
         return dst
