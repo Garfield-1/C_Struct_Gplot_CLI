@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="660">
+<rect width="100%" height="100%" fill="#FAFAFA"/>
+<path d="M 575.0 317.0 C 625.0 317.0 625.0 45.0 675.0 45.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="675.0" cy="45.0" r="3" fill="#999999"/>
+<path d="M 575.0 343.0 C 625.0 343.0 625.0 235.0 675.0 235.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="675.0" cy="235.0" r="3" fill="#999999"/>
+<path d="M 892.0 261.0 C 942.0 261.0 942.0 179.0 992.0 179.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="992.0" cy="179.0" r="3" fill="#999999"/>
+<path d="M 892.0 287.0 C 942.0 287.0 942.0 261.0 992.0 261.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="992.0" cy="261.0" r="3" fill="#999999"/>
+<path d="M 892.0 313.0 C 942.0 313.0 942.0 343.0 992.0 343.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="992.0" cy="343.0" r="3" fill="#999999"/>
+<path d="M 575.0 369.0 C 625.0 369.0 625.0 468.0 675.0 468.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="675.0" cy="468.0" r="3" fill="#999999"/>
+<path d="M 900.0 494.0 C 950.0 494.0 950.0 425.0 1000.0 425.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="1000.0" cy="425.0" r="3" fill="#999999"/>
+<path d="M 900.0 520.0 C 950.0 520.0 950.0 507.0 1000.0 507.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="1000.0" cy="507.0" r="3" fill="#999999"/>
+<path d="M 900.0 546.0 C 950.0 546.0 950.0 589.0 1000.0 589.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="1000.0" cy="589.0" r="3" fill="#999999"/>
+<path d="M 250.0 64.0 C 300.0 64.0 300.0 291.0 350.0 291.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="350.0" cy="291.0" r="3" fill="#999999"/>
+<path d="M 250.0 250.0 C 300.0 250.0 300.0 291.0 350.0 291.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="350.0" cy="291.0" r="3" fill="#999999"/>
+<path d="M 250.0 384.0 C 300.0 384.0 300.0 291.0 350.0 291.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="350.0" cy="291.0" r="3" fill="#999999"/>
+<path d="M 250.0 570.0 C 300.0 570.0 300.0 291.0 350.0 291.0" stroke="#999999" stroke-width="1.5" fill="none"/>
+<circle cx="350.0" cy="291.0" r="3" fill="#999999"/>
+<rect x="350.0" y="278.0" width="225" height="104" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="350.0" y="278.0" width="225" height="26" fill="#4A90D9" stroke="none"/>
+<text x="462.5" y="295.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">struct mesh_leaf (b0e19e)</text>
+<line x1="350.0" y1="304.0" x2="575.0" y2="304.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="350.0" y="304.0" width="225" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="358.0" y="321.3" font-size="13" font-family="monospace" fill="#333333">enum mesh_state state</text>
+<line x1="350.0" y1="330.0" x2="575.0" y2="330.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="358.0" y="347.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_core *core_ptr</text>
+<line x1="350.0" y1="356.0" x2="575.0" y2="356.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="350.0" y="356.0" width="225" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="358.0" y="373.3" font-size="13" font-family="monospace" fill="#333333">union mesh_hub *hub_ptr</text>
+<rect x="675.0" y="32.0" width="209" height="104" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="675.0" y="32.0" width="209" height="26" fill="#50A050" stroke="none"/>
+<text x="779.5" y="49.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">enum mesh_state (6e56ad)</text>
+<line x1="675.0" y1="58.0" x2="884.0" y2="58.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="675.0" y="58.0" width="209" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="683.0" y="75.3" font-size="13" font-family="monospace" fill="#333333">MESH_IDLE</text>
+<line x1="675.0" y1="84.0" x2="884.0" y2="84.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="683.0" y="101.3" font-size="13" font-family="monospace" fill="#333333"> MESH_BUSY</text>
+<line x1="675.0" y1="110.0" x2="884.0" y2="110.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="675.0" y="110.0" width="209" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="683.0" y="127.3" font-size="13" font-family="monospace" fill="#333333"> MESH_DONE</text>
+<rect x="675.0" y="222.0" width="217" height="104" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="675.0" y="222.0" width="217" height="26" fill="#4A90D9" stroke="none"/>
+<text x="783.5" y="239.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">struct mesh_core (525225)</text>
+<line x1="675.0" y1="248.0" x2="892.0" y2="248.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="675.0" y="248.0" width="217" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="683.0" y="265.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_leaf leaf</text>
+<line x1="675.0" y1="274.0" x2="892.0" y2="274.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="683.0" y="291.3" font-size="13" font-family="monospace" fill="#333333">union mesh_hub hub</text>
+<line x1="675.0" y1="300.0" x2="892.0" y2="300.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="675.0" y="300.0" width="217" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="683.0" y="317.3" font-size="13" font-family="monospace" fill="#333333">enum mesh_state state</text>
+<rect x="992.0" y="166.0" width="217" height="52" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="992.0" y="166.0" width="217" height="26" fill="#9B59B6" stroke="none"/>
+<text x="1100.5" y="183.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">struct mesh_leaf (b0e19e)</text>
+<line x1="992.0" y1="192.0" x2="1209.0" y2="192.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="992.0" y="192.0" width="217" height="26" fill="#F1E7F7" stroke="none"/>
+<text x="1100.5" y="209.3" font-size="13" font-family="monospace" fill="#7A5299" text-anchor="middle">......</text>
+<rect x="992.0" y="248.0" width="201" height="52" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="992.0" y="248.0" width="201" height="26" fill="#9B59B6" stroke="none"/>
+<text x="1092.5" y="265.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">union mesh_hub (4229e7)</text>
+<line x1="992.0" y1="274.0" x2="1193.0" y2="274.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="992.0" y="274.0" width="201" height="26" fill="#F1E7F7" stroke="none"/>
+<text x="1092.5" y="291.3" font-size="13" font-family="monospace" fill="#7A5299" text-anchor="middle">......</text>
+<rect x="992.0" y="330.0" width="209" height="52" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="992.0" y="330.0" width="209" height="26" fill="#9B59B6" stroke="none"/>
+<text x="1096.5" y="347.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">enum mesh_state (6e56ad)</text>
+<line x1="992.0" y1="356.0" x2="1201.0" y2="356.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="992.0" y="356.0" width="209" height="26" fill="#F1E7F7" stroke="none"/>
+<text x="1096.5" y="373.3" font-size="13" font-family="monospace" fill="#7A5299" text-anchor="middle">......</text>
+<rect x="675.0" y="455.0" width="225" height="130" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="675.0" y="455.0" width="225" height="26" fill="#E8743B" stroke="none"/>
+<text x="787.5" y="472.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">union mesh_hub (4229e7)</text>
+<line x1="675.0" y1="481.0" x2="900.0" y2="481.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="675.0" y="481.0" width="225" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="683.0" y="498.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_leaf leaf</text>
+<line x1="675.0" y1="507.0" x2="900.0" y2="507.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="683.0" y="524.3" font-size="13" font-family="monospace" fill="#333333">enum mesh_state state</text>
+<line x1="675.0" y1="533.0" x2="900.0" y2="533.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="675.0" y="533.0" width="225" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="683.0" y="550.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_core *core_ptr</text>
+<line x1="675.0" y1="559.0" x2="900.0" y2="559.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="683.0" y="576.3" font-size="13" font-family="monospace" fill="#333333">int raw</text>
+<rect x="1000.0" y="412.0" width="217" height="52" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="1000.0" y="412.0" width="217" height="26" fill="#9B59B6" stroke="none"/>
+<text x="1108.5" y="429.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">struct mesh_leaf (b0e19e)</text>
+<line x1="1000.0" y1="438.0" x2="1217.0" y2="438.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="1000.0" y="438.0" width="217" height="26" fill="#F1E7F7" stroke="none"/>
+<text x="1108.5" y="455.3" font-size="13" font-family="monospace" fill="#7A5299" text-anchor="middle">......</text>
+<rect x="1000.0" y="494.0" width="209" height="52" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="1000.0" y="494.0" width="209" height="26" fill="#9B59B6" stroke="none"/>
+<text x="1104.5" y="511.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">enum mesh_state (6e56ad)</text>
+<line x1="1000.0" y1="520.0" x2="1209.0" y2="520.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="1000.0" y="520.0" width="209" height="26" fill="#F1E7F7" stroke="none"/>
+<text x="1104.5" y="537.3" font-size="13" font-family="monospace" fill="#7A5299" text-anchor="middle">......</text>
+<rect x="1000.0" y="576.0" width="217" height="52" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="1000.0" y="576.0" width="217" height="26" fill="#9B59B6" stroke="none"/>
+<text x="1108.5" y="593.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">struct mesh_core (525225)</text>
+<line x1="1000.0" y1="602.0" x2="1217.0" y2="602.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="1000.0" y="602.0" width="217" height="26" fill="#F1E7F7" stroke="none"/>
+<text x="1108.5" y="619.3" font-size="13" font-family="monospace" fill="#7A5299" text-anchor="middle">......</text>
+<rect x="65.0" y="25.0" width="185" height="104" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="65.0" y="25.0" width="185" height="26" fill="#4A90D9" stroke="none"/>
+<text x="157.5" y="42.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">struct mesh_core</text>
+<line x1="65.0" y1="51.0" x2="250.0" y2="51.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="65.0" y="51.0" width="185" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="73.0" y="68.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_leaf leaf</text>
+<line x1="65.0" y1="77.0" x2="250.0" y2="77.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="73.0" y="94.3" font-size="13" font-family="monospace" fill="#333333">union mesh_hub hub</text>
+<line x1="65.0" y1="103.0" x2="250.0" y2="103.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="65.0" y="103.0" width="185" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="73.0" y="120.3" font-size="13" font-family="monospace" fill="#333333">enum mesh_state state</text>
+<rect x="33.0" y="159.0" width="217" height="156" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="33.0" y="159.0" width="217" height="26" fill="#4A90D9" stroke="none"/>
+<text x="141.5" y="176.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">struct mesh_root_a</text>
+<line x1="33.0" y1="185.0" x2="250.0" y2="185.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="33.0" y="185.0" width="217" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="41.0" y="202.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_core core</text>
+<line x1="33.0" y1="211.0" x2="250.0" y2="211.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="41.0" y="228.3" font-size="13" font-family="monospace" fill="#333333">union mesh_hub hub</text>
+<line x1="33.0" y1="237.0" x2="250.0" y2="237.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="33.0" y="237.0" width="217" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="41.0" y="254.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_leaf leaf</text>
+<line x1="33.0" y1="263.0" x2="250.0" y2="263.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="41.0" y="280.3" font-size="13" font-family="monospace" fill="#333333">enum mesh_state state</text>
+<line x1="33.0" y1="289.0" x2="250.0" y2="289.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="33.0" y="289.0" width="217" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="41.0" y="306.3" font-size="13" font-family="monospace" fill="#333333">union mesh_root_b *peer_b</text>
+<rect x="25.0" y="345.0" width="225" height="130" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="25.0" y="345.0" width="225" height="26" fill="#E8743B" stroke="none"/>
+<text x="137.5" y="362.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">union mesh_hub</text>
+<line x1="25.0" y1="371.0" x2="250.0" y2="371.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="25.0" y="371.0" width="225" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="33.0" y="388.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_leaf leaf</text>
+<line x1="25.0" y1="397.0" x2="250.0" y2="397.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="33.0" y="414.3" font-size="13" font-family="monospace" fill="#333333">enum mesh_state state</text>
+<line x1="25.0" y1="423.0" x2="250.0" y2="423.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="25.0" y="423.0" width="225" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="33.0" y="440.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_core *core_ptr</text>
+<line x1="25.0" y1="449.0" x2="250.0" y2="449.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="33.0" y="466.3" font-size="13" font-family="monospace" fill="#333333">int raw</text>
+<rect x="25.0" y="505.0" width="225" height="130" fill="white" stroke="#333333" stroke-width="1.5"/>
+<rect x="25.0" y="505.0" width="225" height="26" fill="#E8743B" stroke="none"/>
+<text x="137.5" y="522.3" font-size="13" font-family="monospace" fill="white" font-weight="bold" text-anchor="middle">union mesh_root_b</text>
+<line x1="25.0" y1="531.0" x2="250.0" y2="531.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="25.0" y="531.0" width="225" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="33.0" y="548.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_core core</text>
+<line x1="25.0" y1="557.0" x2="250.0" y2="557.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="33.0" y="574.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_leaf leaf</text>
+<line x1="25.0" y1="583.0" x2="250.0" y2="583.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<rect x="25.0" y="583.0" width="225" height="26" fill="#F5F5F5" stroke="none"/>
+<text x="33.0" y="600.3" font-size="13" font-family="monospace" fill="#333333">enum mesh_state state</text>
+<line x1="25.0" y1="609.0" x2="250.0" y2="609.0" stroke="#CCCCCC" stroke-width="0.5"/>
+<text x="33.0" y="626.3" font-size="13" font-family="monospace" fill="#333333">struct mesh_root_a *peer_a</text>
+</svg>
